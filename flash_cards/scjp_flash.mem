@@ -36,10 +36,10 @@ VYes
 p17
 sS'last_rep'
 p18
-I0
+I8
 sS'ret_reps'
 p19
-I1
+I2
 sS'cat'
 p20
 g9
@@ -48,13 +48,13 @@ VIs this a valid JavaBean method signature?\u000apublic void setMyValue(int v)
 p21
 sS'grade'
 p22
-I3
+I4
 sS'acq_reps'
 p23
 I1
 sS'ret_reps_since_lapse'
 p24
-I1
+I2
 sS'unseen'
 p25
 I00
@@ -69,7 +69,7 @@ p28
 I1
 sS'next_rep'
 p29
-I7
+I27
 sS'id'
 p30
 S'bca8c112'
@@ -82,20 +82,20 @@ S'a'
 VNo. Must be public.
 p34
 sg18
-I0
+I8
 sg19
-I1
+I2
 sg20
 g9
 sS'q'
 VIs this a valid JavaBean method signature?\u000avoid setCustomerName(String s)
 p35
 sg22
-I3
+I4
 sg23
 I1
 sg24
-I1
+I2
 sg25
 I00
 sg26
@@ -105,7 +105,7 @@ I0
 sg28
 I1
 sg29
-I7
+I23
 sg30
 S'4eea718d'
 p36
@@ -117,20 +117,20 @@ S'a'
 VNo. Listener type mismatch. Must be addActionListener(Action m)
 p39
 sg18
-I0
+I8
 sg19
-I1
+I2
 sg20
 g9
 sS'q'
 VIs this a valid JavaBean method signature?\u000apublic void addThingListener(Action m)
 p40
 sg22
-I3
+I4
 sg23
 I1
 sg24
-I1
+I2
 sg25
 I00
 sg26
@@ -140,7 +140,7 @@ I0
 sg28
 I1
 sg29
-I7
+I29
 sg30
 S'9e69b870'
 p41
@@ -327,20 +327,20 @@ S'a'
 VIt can't be extended.
 p69
 sg18
-I0
+I8
 sg19
-I1
+I2
 sg20
 g9
 sS'q'
 VWhat does final mean on a class?
 p70
 sg22
-I3
+I4
 sg23
 I1
 sg24
-I1
+I2
 sg25
 I00
 sg26
@@ -350,7 +350,7 @@ I0
 sg28
 I1
 sg29
-I7
+I30
 sg30
 S'd3912f5b'
 p71
@@ -537,9 +537,9 @@ S'a'
 VAccess modifiers.
 p99
 sg18
-I1
+I8
 sg19
-I1
+I2
 sg20
 g9
 sS'q'
@@ -550,17 +550,17 @@ I3
 sg23
 I1
 sg24
-I1
+I2
 sg25
 I00
 sg26
-F2.2899999999999996
+F2.1499999999999995
 sg27
 I0
 sg28
 I1
 sg29
-I7
+I14
 sg30
 S'2c170b6b'
 p101
@@ -607,9 +607,9 @@ S'a'
 Vstrictfp
 p109
 sg18
-I1
+I8
 sg19
-I1
+I2
 sg20
 g9
 sS'q'
@@ -620,17 +620,17 @@ I5
 sg23
 I2
 sg24
-I1
+I2
 sg25
 I00
 sg26
-F2.5299999999999998
+F2.6299999999999999
 sg27
 I0
 sg28
 I2
 sg29
-I7
+I24
 sg30
 S'a9bf9ca4'
 p111
@@ -887,20 +887,20 @@ S'a'
 Vpublic, static, final
 p149
 sg18
-I1
+I8
 sg19
-I1
+I2
 sg20
 g9
 sS'q'
 VWhat modifiers do interface variables implicitly always have?
 p150
 sg22
-I3
+I4
 sg23
 I2
 sg24
-I1
+I2
 sg25
 I00
 sg26
@@ -910,7 +910,7 @@ I0
 sg28
 I2
 sg29
-I7
+I22
 sg30
 S'270c3d17'
 p151
@@ -922,20 +922,20 @@ S'a'
 Vpublic, default
 p154
 sg18
-I1
+I8
 sg19
-I1
+I2
 sg20
 g9
 sS'q'
 VWhich of these levels of access control can a class be?\u000apublic, protected, default, private
 p155
 sg22
-I5
+I4
 sg23
 I1
 sg24
-I1
+I2
 sg25
 I00
 sg26
@@ -945,7 +945,7 @@ I0
 sg28
 I1
 sg29
-I8
+I24
 sg30
 S'ba992ace'
 p156
@@ -992,22 +992,22 @@ S'a'
 VNo. doRooThings is private.
 p164
 sg18
-I1
+I8
 sg19
-I0
+I1
 sg20
 g9
 sS'q'
 VShould this compile?\u000apackage cert;\u000apublic class Roo { private String doRooThings() { return "fun"; } }\u000a-------\u000apackage notcert;\u000aimport cert.Roo;\u000apublic class Cloo extends Roo { public void testCloo() { System.out.println(doRooThings()); } }
 p165
 sg22
-I5
+I4
 sg23
 I1
 sg24
-I0
+I1
 sg25
-I01
+I00
 sg26
 F2.4270370370370369
 sg27
@@ -1015,7 +1015,7 @@ I0
 sg28
 I1
 sg29
-I7
+I14
 sg30
 S'1bfcb50f'
 p166
@@ -1272,9 +1272,9 @@ S'a'
 VIt can't be overridden.
 p204
 sg18
-I1
+I8
 sg19
-I0
+I1
 sg20
 g9
 sS'q'
@@ -1285,17 +1285,17 @@ I5
 sg23
 I1
 sg24
-I0
+I1
 sg25
-I01
+I00
 sg26
-F2.4270370370370373
+F2.5270370370370374
 sg27
 I0
 sg28
 I1
 sg29
-I7
+I15
 sg30
 S'b3bb9ea5'
 p206
