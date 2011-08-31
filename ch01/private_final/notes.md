@@ -1,0 +1,1 @@
+You can have a private final method
