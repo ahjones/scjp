@@ -41,26 +41,26 @@ Item
 p18
 (dp19
 S'a'
-Vstrictfp
+VNo. Can't implement class
 p20
 sS'last_rep'
 p21
-I42
+I46
 sS'ret_reps'
 p22
-I3
+I1
 sS'cat'
 p23
-g9
+g14
 sS'q'
-VWhat's missing?\u000apublic, private, final, abstract, protected.
+VIs this legal?\u000aclass Foo {}\u000aclass Bar implements Foo{}
 p24
 sS'grade'
 p25
 I3
 sS'acq_reps'
 p26
-I3
+I2
 sS'ret_reps_since_lapse'
 p27
 I0
@@ -69,7 +69,7 @@ p28
 I00
 sS'easiness'
 p29
-F2.6299999999999999
+F2.5773446745133506
 sS'lapses'
 p30
 I1
@@ -78,68 +78,103 @@ p31
 I1
 sS'next_rep'
 p32
-I44
+I47
 sS'id'
 p33
-S'a9bf9ca4'
+S'617afcb2'
 p34
 sba(imnemosyne.core.mnemosyne_core
 Item
 p35
 (dp36
 S'a'
-VNo. Must be public.
+Vstrictfp
 p37
 sg21
-I42
+I46
 sg22
-I3
+I4
 sg23
 g9
 sS'q'
-VIs this a valid JavaBean method signature?\u000avoid setCustomerName(String s)
+VWhat's missing?\u000apublic, private, final, abstract, protected.
 p38
 sg25
 I4
 sg26
-I2
+I3
 sg27
-I0
+I1
 sg28
 I00
 sg29
-F2.3599999999999999
+F2.6299999999999999
 sg30
 I1
 sg31
 I1
 sg32
-I44
+I51
 sg33
-S'4eea718d'
+S'a9bf9ca4'
 p39
 sba(imnemosyne.core.mnemosyne_core
 Item
 p40
 (dp41
 S'a'
-Vpublic, static, final
+VNo. Must be public.
 p42
 sg21
-I42
+I46
 sg22
-I3
+I4
+sg23
+g9
+sS'q'
+VIs this a valid JavaBean method signature?\u000avoid setCustomerName(String s)
+p43
+sg25
+I5
+sg26
+I2
+sg27
+I1
+sg28
+I00
+sg29
+F2.46
+sg30
+I1
+sg31
+I1
+sg32
+I53
+sg33
+S'4eea718d'
+p44
+sba(imnemosyne.core.mnemosyne_core
+Item
+p45
+(dp46
+S'a'
+Vpublic, static, final
+p47
+sg21
+I46
+sg22
+I4
 sg23
 g9
 sS'q'
 VWhat modifiers do interface variables implicitly always have?
-p43
+p48
 sg25
-I3
+I4
 sg26
 I3
 sg27
-I0
+I1
 sg28
 I00
 sg29
@@ -149,32 +184,32 @@ I1
 sg31
 I1
 sg32
-I44
+I51
 sg33
 S'270c3d17'
-p44
+p49
 sba(imnemosyne.core.mnemosyne_core
 Item
-p45
-(dp46
+p50
+(dp51
 S'a'
 Vbyte, short, int, long
-p47
+p52
 sg21
-I42
+I46
 sg22
-I2
+I3
 sg23
 g9
 sS'q'
 VOrder the integer types in terms of size
-p48
+p53
 sg25
-I3
+I4
 sg26
 I2
 sg27
-I0
+I1
 sg28
 I00
 sg29
@@ -184,17 +219,17 @@ I1
 sg31
 I1
 sg32
-I44
+I51
 sg33
 S'8f072417'
-p49
+p54
 sba(imnemosyne.core.mnemosyne_core
 Item
-p50
-(dp51
+p55
+(dp56
 S'a'
 VYes
-p52
+p57
 sg21
 I43
 sg22
@@ -203,7 +238,7 @@ sg23
 g14
 sS'q'
 VCan an overriding method throw unchecked exceptions that the overridden method can't?
-p53
+p58
 sg25
 I5
 sg26
@@ -222,41 +257,6 @@ sg32
 I50
 sg33
 S'271819d2'
-p54
-sba(imnemosyne.core.mnemosyne_core
-Item
-p55
-(dp56
-S'a'
-VYes
-p57
-sg21
-I42
-sg22
-I1
-sg23
-g14
-sS'q'
-VDoes method overriding support covariance?
-p58
-sg25
-I2
-sg26
-I3
-sg27
-I0
-sg28
-I00
-sg29
-F2.5153244724931487
-sg30
-I1
-sg31
-I2
-sg32
-I44
-sg33
-S'1e481296'
 p59
 sba(imnemosyne.core.mnemosyne_core
 Item
@@ -266,20 +266,55 @@ S'a'
 VYes
 p62
 sg21
-I42
+I46
 sg22
+I2
+sg23
+g14
+sS'q'
+VDoes method overriding support covariance?
+p63
+sg25
+I5
+sg26
+I3
+sg27
 I1
+sg28
+I00
+sg29
+F2.6153244724931488
+sg30
+I1
+sg31
+I2
+sg32
+I53
+sg33
+S'1e481296'
+p64
+sba(imnemosyne.core.mnemosyne_core
+Item
+p65
+(dp66
+S'a'
+VYes
+p67
+sg21
+I46
+sg22
+I2
 sg23
 g14
 sS'q'
 VCan the return type of an overriding method be more specific than the return type of the overridden method?
-p63
+p68
 sg25
 I4
 sg26
 I2
 sg27
-I0
+I1
 sg28
 I00
 sg29
@@ -289,17 +324,17 @@ I1
 sg31
 I1
 sg32
-I44
+I53
 sg33
 S'c53133cd'
-p64
+p69
 sba(imnemosyne.core.mnemosyne_core
 Item
-p65
-(dp66
+p70
+(dp71
 S'a'
 VNo
-p67
+p72
 sg21
 I43
 sg22
@@ -308,7 +343,7 @@ sg23
 g9
 sS'q'
 VCan a local variable be marked static?
-p68
+p73
 sg25
 I5
 sg26
@@ -327,14 +362,14 @@ sg32
 I50
 sg33
 S'97f39b59'
-p69
+p74
 sba(imnemosyne.core.mnemosyne_core
 Item
-p70
-(dp71
+p75
+(dp76
 S'a'
 VJust methods.
-p72
+p77
 sg21
 I43
 sg22
@@ -343,7 +378,7 @@ sg23
 g9
 sS'q'
 VWhat can the native modifier be applied to?
-p73
+p78
 sg25
 I5
 sg26
@@ -362,14 +397,14 @@ sg32
 I48
 sg33
 S'f44938ba'
-p74
+p79
 sba(imnemosyne.core.mnemosyne_core
 Item
-p75
-(dp76
+p80
+(dp81
 S'a'
 VNo. Can't be static
-p77
+p82
 sg21
 I43
 sg22
@@ -378,7 +413,7 @@ sg23
 g9
 sS'q'
 VIn an interface, is this valid:\u000astatic void bounce();
-p78
+p83
 sg25
 I5
 sg26
@@ -397,29 +432,29 @@ sg32
 I49
 sg33
 S'60e478bb'
-p79
+p84
 sba(imnemosyne.core.mnemosyne_core
 Item
-p80
-(dp81
+p85
+(dp86
 S'a'
 VYes.
-p82
+p87
 sg21
-I42
+I46
 sg22
-I3
+I4
 sg23
 g9
 sS'q'
 VCan a file have more than one non-public class?
-p83
+p88
 sg25
 I4
 sg26
 I2
 sg27
-I0
+I1
 sg28
 I00
 sg29
@@ -429,32 +464,32 @@ I1
 sg31
 I1
 sg32
-I44
+I51
 sg33
 S'188367c3'
-p84
+p89
 sba(imnemosyne.core.mnemosyne_core
 Item
-p85
-(dp86
+p90
+(dp91
 S'a'
 VYes
-p87
+p92
 sg21
-I42
+I46
 sg22
-I1
+I2
 sg23
 g9
 sS'q'
 VIs this valid?\u000aString[] managerName[];
-p88
+p93
 sg25
-I5
+I4
 sg26
 I2
 sg27
-I0
+I1
 sg28
 I00
 sg29
@@ -464,17 +499,17 @@ I1
 sg31
 I1
 sg32
-I44
+I52
 sg33
 S'8cf38896'
-p89
+p94
 sba(imnemosyne.core.mnemosyne_core
 Item
-p90
-(dp91
+p95
+(dp96
 S'a'
 VHeap
-p92
+p97
 sg21
 I43
 sg22
@@ -483,7 +518,7 @@ sg23
 g9
 sS'q'
 VIs an array stored on the heap or the stack?
-p93
+p98
 sg25
 I4
 sg26
@@ -502,14 +537,14 @@ sg32
 I50
 sg33
 S'baec6467'
-p94
+p99
 sba(imnemosyne.core.mnemosyne_core
 Item
-p95
-(dp96
+p100
+(dp101
 S'a'
 VYes
-p97
+p102
 sg21
 I42
 sg22
@@ -518,7 +553,7 @@ sg23
 g9
 sS'q'
 VIs this a valid JavaBean method signature?\u000apublic void setMyValue(int v)
-p98
+p103
 sg25
 I5
 sg26
@@ -537,14 +572,14 @@ sg32
 F133
 sg33
 S'bca8c112'
-p99
+p104
 sba(imnemosyne.core.mnemosyne_core
 Item
-p100
-(dp101
+p105
+(dp106
 S'a'
 VNo. Listener type mismatch. Must be addActionListener(Action m)
-p102
+p107
 sg21
 I42
 sg22
@@ -553,7 +588,7 @@ sg23
 g9
 sS'q'
 VIs this a valid JavaBean method signature?\u000apublic void addThingListener(Action m)
-p103
+p108
 sg25
 I3
 sg26
@@ -572,14 +607,14 @@ sg32
 I66
 sg33
 S'9e69b870'
-p104
+p109
 sba(imnemosyne.core.mnemosyne_core
 Item
-p105
-(dp106
+p110
+(dp111
 S'a'
 VNo.\u000aCan't use modify.
-p107
+p112
 sg21
 I42
 sg22
@@ -588,7 +623,7 @@ sg23
 g9
 sS'q'
 VIs this a valid JavaBean method signature?\u000apublic void modifyMyValue(int v)
-p108
+p113
 sg25
 I5
 sg26
@@ -607,14 +642,14 @@ sg32
 F129
 sg33
 S'07bcdf71'
-p109
+p114
 sba(imnemosyne.core.mnemosyne_core
 Item
-p110
-(dp111
+p115
+(dp116
 S'a'
 VYes.
-p112
+p117
 sg21
 I42
 sg22
@@ -623,7 +658,7 @@ sg23
 g9
 sS'q'
 VIs this a valid JavaBean method signature?\u000apublic int getMyValue()
-p113
+p118
 sg25
 I4
 sg26
@@ -642,14 +677,14 @@ sg32
 F130
 sg33
 S'184c9825'
-p114
+p119
 sba(imnemosyne.core.mnemosyne_core
 Item
-p115
-(dp116
+p120
+(dp121
 S'a'
 VYes
-p117
+p122
 sg21
 I42
 sg22
@@ -658,7 +693,7 @@ sg23
 g9
 sS'q'
 VIs this a valid JavaBean method signature?\u000apublic void removeMyListener(MyListener m)
-p118
+p123
 sg25
 I5
 sg26
@@ -677,14 +712,14 @@ sg32
 F130
 sg33
 S'11210728'
-p119
+p124
 sba(imnemosyne.core.mnemosyne_core
 Item
-p120
-(dp121
+p125
+(dp126
 S'a'
 VClasses and methods.
-p122
+p127
 sg21
 I42
 sg22
@@ -693,7 +728,7 @@ sg23
 g9
 sS'q'
 Vstrictfp can be used on what?
-p123
+p128
 sg25
 I5
 sg26
@@ -712,14 +747,14 @@ sg32
 F135
 sg33
 S'ec18704d'
-p124
+p129
 sba(imnemosyne.core.mnemosyne_core
 Item
-p125
-(dp126
+p130
+(dp131
 S'a'
 VIt can't be extended.
-p127
+p132
 sg21
 I42
 sg22
@@ -728,7 +763,7 @@ sg23
 g9
 sS'q'
 VWhat does final mean on a class?
-p128
+p133
 sg25
 I5
 sg26
@@ -747,14 +782,14 @@ sg32
 F132
 sg33
 S'd3912f5b'
-p129
+p134
 sba(imnemosyne.core.mnemosyne_core
 Item
-p130
-(dp131
+p135
+(dp136
 S'a'
 VInstantiate it.
-p132
+p137
 sg21
 I42
 sg22
@@ -763,7 +798,7 @@ sg23
 g9
 sS'q'
 VWhat can't you do with an abstract class?
-p133
+p138
 sg25
 I5
 sg26
@@ -782,14 +817,14 @@ sg32
 F143
 sg33
 S'ffa61e7a'
-p134
+p139
 sba(imnemosyne.core.mnemosyne_core
 Item
-p135
-(dp136
+p140
+(dp141
 S'a'
 VYes
-p137
+p142
 sg21
 I42
 sg22
@@ -798,7 +833,7 @@ sg23
 g9
 sS'q'
 VCan you have a construtor on an abstract class?
-p138
+p143
 sg25
 I5
 sg26
@@ -817,14 +852,14 @@ sg32
 F135
 sg33
 S'3b9a3162'
-p139
+p144
 sba(imnemosyne.core.mnemosyne_core
 Item
-p140
-(dp141
+p145
+(dp146
 S'a'
 VMark Car and goFast as abstract, or give goFast a body.
-p142
+p147
 sg21
 I42
 sg22
@@ -833,7 +868,7 @@ sg23
 g9
 sS'q'
 VWhat must you do to make this compile?\u000aclass Car {\u000a  public void goFast();\u000a}
-p143
+p148
 sg25
 I4
 sg26
@@ -852,14 +887,14 @@ sg32
 F130
 sg33
 S'732ba858'
-p144
+p149
 sba(imnemosyne.core.mnemosyne_core
 Item
-p145
-(dp146
+p150
+(dp151
 S'a'
 VThe class must also be marked as abstract.
-p147
+p152
 sg21
 I30
 sg22
@@ -868,7 +903,7 @@ sg23
 g9
 sS'q'
 VWhat's wrong here:\u000apublic class Fruit {\u000a  public abstract void setSeeds(int seeds);\u000a}
-p148
+p153
 sg25
 I5
 sg26
@@ -887,14 +922,14 @@ sg32
 I89
 sg33
 S'cfc60c97'
-p149
+p154
 sba(imnemosyne.core.mnemosyne_core
 Item
-p150
-(dp151
+p155
+(dp156
 S'a'
 VDon't put any access modifiers on the thing.
-p152
+p157
 sg21
 I30
 sg22
@@ -903,7 +938,7 @@ sg23
 g9
 sS'q'
 VHow do you mark something as default access?
-p153
+p158
 sg25
 I5
 sg26
@@ -922,14 +957,14 @@ sg32
 F94
 sg33
 S'422951cb'
-p154
+p159
 sba(imnemosyne.core.mnemosyne_core
 Item
-p155
-(dp156
+p160
+(dp161
 S'a'
 VAccess modifiers.
-p157
+p162
 sg21
 I30
 sg22
@@ -938,7 +973,7 @@ sg23
 g9
 sS'q'
 VWhat are these known as?\u000apublic, protected, private.
-p158
+p163
 sg25
 I5
 sg26
@@ -957,14 +992,14 @@ sg32
 I82
 sg33
 S'2c170b6b'
-p159
+p164
 sba(imnemosyne.core.mnemosyne_core
 Item
-p160
-(dp161
+p165
+(dp166
 S'a'
 VNon-access modifiers.
-p162
+p167
 sg21
 I30
 sg22
@@ -973,7 +1008,7 @@ sg23
 g9
 sS'q'
 VWhat are these known as?\u000astrictfp, final, abstract.
-p163
+p168
 sg25
 I5
 sg26
@@ -992,14 +1027,14 @@ sg32
 I88
 sg33
 S'e5ae6da8'
-p164
+p169
 sba(imnemosyne.core.mnemosyne_core
 Item
-p165
-(dp166
+p170
+(dp171
 S'a'
 VYes
-p167
+p172
 sg21
 I30
 sg22
@@ -1008,7 +1043,7 @@ sg23
 g9
 sS'q'
 VIs this legal?\u000apublic abstract interface Rollable { }
-p168
+p173
 sg25
 I5
 sg26
@@ -1027,48 +1062,13 @@ sg32
 I85
 sg33
 S'42c037dc'
-p169
-sba(imnemosyne.core.mnemosyne_core
-Item
-p170
-(dp171
-S'a'
-VYes
-p172
-sg21
-I30
-sg22
-I2
-sg23
-g9
-sS'q'
-VIs this valid:\u000apublic interface Bounceable {\u000a  public abstract void bounce();\u000a  public abstract void setBounceFactor(int bf);\u000a}
-p173
-sg25
-I5
-sg26
-I1
-sg27
-I2
-sg28
-I00
-sg29
-F2.6299999999999999
-sg30
-I0
-sg31
-I1
-sg32
-F94
-sg33
-S'171d6eef'
 p174
 sba(imnemosyne.core.mnemosyne_core
 Item
 p175
 (dp176
 S'a'
-VNo. Can't be private.
+VYes
 p177
 sg21
 I30
@@ -1077,7 +1077,7 @@ I2
 sg23
 g9
 sS'q'
-VIn an interface is the following valid?\u000aprivate void bounce();
+VIs this valid:\u000apublic interface Bounceable {\u000a  public abstract void bounce();\u000a  public abstract void setBounceFactor(int bf);\u000a}
 p178
 sg25
 I5
@@ -1096,15 +1096,50 @@ I1
 sg32
 F94
 sg33
-S'46d7a9dc'
+S'171d6eef'
 p179
 sba(imnemosyne.core.mnemosyne_core
 Item
 p180
 (dp181
 S'a'
-VYes.
+VNo. Can't be private.
 p182
+sg21
+I30
+sg22
+I2
+sg23
+g9
+sS'q'
+VIn an interface is the following valid?\u000aprivate void bounce();
+p183
+sg25
+I5
+sg26
+I1
+sg27
+I2
+sg28
+I00
+sg29
+F2.6299999999999999
+sg30
+I0
+sg31
+I1
+sg32
+F94
+sg33
+S'46d7a9dc'
+p184
+sba(imnemosyne.core.mnemosyne_core
+Item
+p185
+(dp186
+S'a'
+VYes.
+p187
 sg21
 I27
 sg22
@@ -1113,7 +1148,7 @@ sg23
 g9
 sS'q'
 VIn an interface is the following valid?\u000aabstract public void bounce();
-p183
+p188
 sg25
 I5
 sg26
@@ -1132,14 +1167,14 @@ sg32
 I77
 sg33
 S'f231b8d8'
-p184
+p189
 sba(imnemosyne.core.mnemosyne_core
 Item
-p185
-(dp186
+p190
+(dp191
 S'a'
 VNo. bar is constant.
-p187
+p192
 sg21
 I30
 sg22
@@ -1148,7 +1183,7 @@ sg23
 g9
 sS'q'
 VWill this compile?\u000ainterface Foo { int bar = 42; void go(); }\u000aclass Zap implements Foo {\u000a  public void go() { bar = 72; }\u000a}
-p188
+p193
 sg25
 I5
 sg26
@@ -1167,14 +1202,14 @@ sg32
 I90
 sg33
 S'c565ce2b'
-p189
+p194
 sba(imnemosyne.core.mnemosyne_core
 Item
-p190
-(dp191
+p195
+(dp196
 S'a'
 Vpublic. not default.
-p192
+p197
 sg21
 I27
 sg22
@@ -1183,7 +1218,7 @@ sg23
 g9
 sS'q'
 VWhat's x's scope?\u000a\u000ainterface Foo { int x = 1; }
-p193
+p198
 sg25
 I5
 sg26
@@ -1202,14 +1237,14 @@ sg32
 I79
 sg33
 S'e0ead94c'
-p194
+p199
 sba(imnemosyne.core.mnemosyne_core
 Item
-p195
-(dp196
+p200
+(dp201
 S'a'
 Vpublic, default
-p197
+p202
 sg21
 I42
 sg22
@@ -1218,7 +1253,7 @@ sg23
 g9
 sS'q'
 VWhich of these levels of access control can a class be?\u000apublic, protected, default, private
-p198
+p203
 sg25
 I5
 sg26
@@ -1237,14 +1272,14 @@ sg32
 F131
 sg33
 S'ba992ace'
-p199
+p204
 sba(imnemosyne.core.mnemosyne_core
 Item
-p200
-(dp201
+p205
+(dp206
 S'a'
 VYes. doRooThings is public
-p202
+p207
 sg21
 I30
 sg22
@@ -1253,7 +1288,7 @@ sg23
 g9
 sS'q'
 VShould this compile?\u000apackage cert;\u000apublic class Roo { public String doRooThings() { return "fun"; } }\u000a-------\u000apackage notcert;\u000aimport cert.Roo;\u000apublic class Cloo extends Roo { public void testCloo() { System.out.println(doRooThings()); } }
-p203
+p208
 sg25
 I5
 sg26
@@ -1272,14 +1307,14 @@ sg32
 F91
 sg33
 S'1c8f1161'
-p204
+p209
 sba(imnemosyne.core.mnemosyne_core
 Item
-p205
-(dp206
+p210
+(dp211
 S'a'
 VNo. doRooThings is private.
-p207
+p212
 sg21
 I30
 sg22
@@ -1288,7 +1323,7 @@ sg23
 g9
 sS'q'
 VShould this compile?\u000apackage cert;\u000apublic class Roo { private String doRooThings() { return "fun"; } }\u000a-------\u000apackage notcert;\u000aimport cert.Roo;\u000apublic class Cloo extends Roo { public void testCloo() { System.out.println(doRooThings()); } }
-p208
+p213
 sg25
 I5
 sg26
@@ -1307,14 +1342,14 @@ sg32
 I87
 sg33
 S'1bfcb50f'
-p209
+p214
 sba(imnemosyne.core.mnemosyne_core
 Item
-p210
-(dp211
+p215
+(dp216
 S'a'
 VNo.\u000adoRooThings is private
-p212
+p217
 sg21
 I30
 sg22
@@ -1323,7 +1358,7 @@ sg23
 g9
 sS'q'
 VShould this compile?\u000apackage cert;\u000apublic class Roo { private String doRooThings() { return "fun"; } }\u000a--------\u000apackage notcert;\u000apublic class UseARoo { public void testIt() { Roo r = new Roo(); System.out.println(r.doRooThings()); } }
-p213
+p218
 sg25
 I5
 sg26
@@ -1342,48 +1377,13 @@ sg32
 I90
 sg33
 S'5d83b89f'
-p214
-sba(imnemosyne.core.mnemosyne_core
-Item
-p215
-(dp216
-S'a'
-Vis
-p217
-sg21
-I30
-sg22
-I2
-sg23
-g9
-sS'q'
-VWhat prefix should be used for a getter method that returns boolean?
-p218
-sg25
-I5
-sg26
-I1
-sg27
-I2
-sg28
-I00
-sg29
-F2.5270370370370374
-sg30
-I0
-sg31
-I1
-sg32
-I87
-sg33
-S'4de2808c'
 p219
 sba(imnemosyne.core.mnemosyne_core
 Item
 p220
 (dp221
 S'a'
-VPut class B in the same package as A.
+Vis
 p222
 sg21
 I30
@@ -1392,7 +1392,7 @@ I2
 sg23
 g9
 sS'q'
-VIf class A has a protected member that you want to access from class B without inheritence, what would you do?
+VWhat prefix should be used for a getter method that returns boolean?
 p223
 sg25
 I5
@@ -1411,15 +1411,50 @@ I1
 sg32
 I87
 sg33
-S'4e8be65c'
+S'4de2808c'
 p224
 sba(imnemosyne.core.mnemosyne_core
 Item
 p225
 (dp226
 S'a'
-VNo. B cannot access x through a reference to the parent.
+VPut class B in the same package as A.
 p227
+sg21
+I30
+sg22
+I2
+sg23
+g9
+sS'q'
+VIf class A has a protected member that you want to access from class B without inheritence, what would you do?
+p228
+sg25
+I5
+sg26
+I1
+sg27
+I2
+sg28
+I00
+sg29
+F2.5270370370370374
+sg30
+I0
+sg31
+I1
+sg32
+I87
+sg33
+S'4e8be65c'
+p229
+sba(imnemosyne.core.mnemosyne_core
+Item
+p230
+(dp231
+S'a'
+VNo. B cannot access x through a reference to the parent.
+p232
 sg21
 I36
 sg22
@@ -1428,7 +1463,7 @@ sg23
 g9
 sS'q'
 VValid?\u000apublic class A { protected int x = 9; }\u000apublic class B extends A {\u000a  public void f() { A a = new A();\u000a    System.out.println("a.x: " + a.x);\u000a  }\u000a}
-p228
+p233
 sg25
 I4
 sg26
@@ -1447,14 +1482,14 @@ sg32
 F107
 sg33
 S'c91325a6'
-p229
+p234
 sba(imnemosyne.core.mnemosyne_core
 Item
-p230
-(dp231
+p235
+(dp236
 S'a'
 VDefault
-p232
+p237
 sg21
 I36
 sg22
@@ -1463,7 +1498,7 @@ sg23
 g9
 sS'q'
 VWhat is the access control of x?\u000apublic class Parent { int x = 9; }
-p233
+p238
 sg25
 I5
 sg26
@@ -1482,14 +1517,14 @@ sg32
 F113
 sg33
 S'd1ab5322'
-p234
+p239
 sba(imnemosyne.core.mnemosyne_core
 Item
-p235
-(dp236
+p240
+(dp241
 S'a'
 VNo. You can't apply an access modifier to a local variable.
-p237
+p242
 sg21
 I30
 sg22
@@ -1498,7 +1533,7 @@ sg23
 g9
 sS'q'
 VWill this compile:\u000aclass Foo {\u000a  void doStuff() {\u000a    private int x = 6;\u000a  }\u000a}
-p238
+p243
 sg25
 I5
 sg26
@@ -1517,14 +1552,14 @@ sg32
 F91
 sg33
 S'571f4c3d'
-p239
+p244
 sba(imnemosyne.core.mnemosyne_core
 Item
-p240
-(dp241
+p245
+(dp246
 S'a'
 VJust one: final.
-p242
+p247
 sg21
 I30
 sg22
@@ -1533,7 +1568,7 @@ sg23
 g9
 sS'q'
 VWhat access modifiers can you apply to a local variable?
-p243
+p248
 sg25
 I5
 sg26
@@ -1552,14 +1587,14 @@ sg32
 I86
 sg33
 S'd4a40847'
-p244
+p249
 sba(imnemosyne.core.mnemosyne_core
 Item
-p245
-(dp246
+p250
+(dp251
 S'a'
 VIt can't be overridden.
-p247
+p252
 sg21
 I36
 sg22
@@ -1568,7 +1603,7 @@ sg23
 g9
 sS'q'
 VWhat does final mean on a method?
-p248
+p253
 sg25
 I5
 sg26
@@ -1587,48 +1622,13 @@ sg32
 F111
 sg33
 S'b3bb9ea5'
-p249
-sba(imnemosyne.core.mnemosyne_core
-Item
-p250
-(dp251
-S'a'
-VNo. You can't override a final method.
-p252
-sg21
-I36
-sg22
-I2
-sg23
-g9
-sS'q'
-VDoes this compile?\u000aclass SuperClass {\u000a  public final void show() { } \u000a}\u000aclass SubClass extends SuperClass {\u000a  public void show() { }\u000a}\u000a
-p253
-sg25
-I5
-sg26
-I1
-sg27
-I2
-sg28
-I00
-sg29
-F2.6270370370370375
-sg30
-I0
-sg31
-I1
-sg32
-F114
-sg33
-S'664b3813'
 p254
 sba(imnemosyne.core.mnemosyne_core
 Item
 p255
 (dp256
 S'a'
-VThe value of the argument can't change.
+VNo. You can't override a final method.
 p257
 sg21
 I36
@@ -1637,7 +1637,7 @@ I2
 sg23
 g9
 sS'q'
-VWhat does final mean when applied to a method argument?
+VDoes this compile?\u000aclass SuperClass {\u000a  public final void show() { } \u000a}\u000aclass SubClass extends SuperClass {\u000a  public void show() { }\u000a}\u000a
 p258
 sg25
 I5
@@ -1656,14 +1656,14 @@ I1
 sg32
 F114
 sg33
-S'67f543ee'
+S'664b3813'
 p259
 sba(imnemosyne.core.mnemosyne_core
 Item
 p260
 (dp261
 S'a'
-VNo. The class must be abstract too.
+VThe value of the argument can't change.
 p262
 sg21
 I36
@@ -1672,8 +1672,43 @@ I2
 sg23
 g9
 sS'q'
-VWill this compile?\u000apublic class MyClass {\u000a  public abstract void doIt();\u000a}
+VWhat does final mean when applied to a method argument?
 p263
+sg25
+I5
+sg26
+I1
+sg27
+I2
+sg28
+I00
+sg29
+F2.6270370370370375
+sg30
+I0
+sg31
+I1
+sg32
+F114
+sg33
+S'67f543ee'
+p264
+sba(imnemosyne.core.mnemosyne_core
+Item
+p265
+(dp266
+S'a'
+VNo. The class must be abstract too.
+p267
+sg21
+I36
+sg22
+I2
+sg23
+g9
+sS'q'
+VWill this compile?\u000apublic class MyClass {\u000a  public abstract void doIt();\u000a}
+p268
 sg25
 I5
 sg26
@@ -1692,14 +1727,14 @@ sg32
 F108
 sg33
 S'1697effc'
-p264
+p269
 sba(imnemosyne.core.mnemosyne_core
 Item
-p265
-(dp266
+p270
+(dp271
 S'a'
 VYes
-p267
+p272
 sg21
 I30
 sg22
@@ -1708,7 +1743,7 @@ sg23
 g9
 sS'q'
 VWill this compile?\u000apublic abstract class MyClass {\u000a  public abstract doIt();\u000a}
-p268
+p273
 sg25
 I5
 sg26
@@ -1727,14 +1762,14 @@ sg32
 F94
 sg33
 S'e07493a6'
-p269
+p274
 sba(imnemosyne.core.mnemosyne_core
 Item
-p270
-(dp271
+p275
+(dp276
 S'a'
 VYes. You can have an abstract class without any abstract methods.
-p272
+p277
 sg21
 I42
 sg22
@@ -1743,7 +1778,7 @@ sg23
 g9
 sS'q'
 VWill this compile?\u000apublic abstract class MyClass() {\u000a  public void doIt() { }\u000a}
-p273
+p278
 sg25
 I5
 sg26
@@ -1762,14 +1797,14 @@ sg32
 F134
 sg33
 S'2413be57'
-p274
+p279
 sba(imnemosyne.core.mnemosyne_core
 Item
-p275
-(dp276
+p280
+(dp281
 S'a'
 VNo. foo() doesn't have a concrete implementation.
-p277
+p282
 sg21
 I42
 sg22
@@ -1778,7 +1813,7 @@ sg23
 g9
 sS'q'
 VDoes this compile?\u000apublic abstract class A {\u000a  abstract void foo();\u000a}\u000aclass B extends A {\u000a  void foo(int i) { }\u000a}
-p278
+p283
 sg25
 I5
 sg26
@@ -1797,14 +1832,14 @@ sg32
 F136
 sg33
 S'aa6c1d44'
-p279
+p284
 sba(imnemosyne.core.mnemosyne_core
 Item
-p280
-(dp281
+p285
+(dp286
 S'a'
 VYes. Through inheritance.
-p282
+p287
 sg21
 I36
 sg22
@@ -1813,7 +1848,7 @@ sg23
 g9
 sS'q'
 VIs a protected variable visible to a subclass outside the same package?
-p283
+p288
 sg25
 I5
 sg26
@@ -1832,14 +1867,14 @@ sg32
 I61
 sg33
 S'8c83ac74'
-p284
+p289
 sba(imnemosyne.core.mnemosyne_core
 Item
-p285
-(dp286
+p290
+(dp291
 S'a'
 VNo.
-p287
+p292
 sg21
 I42
 sg22
@@ -1848,7 +1883,7 @@ sg23
 g9
 sS'q'
 VIs a private method visible to a class in the same package?
-p288
+p293
 sg25
 I5
 sg26
@@ -1867,14 +1902,14 @@ sg32
 I73
 sg33
 S'983da183'
-p289
+p294
 sba(imnemosyne.core.mnemosyne_core
 Item
-p290
-(dp291
+p295
+(dp296
 S'a'
 VYes.
-p292
+p297
 sg21
 I36
 sg22
@@ -1883,7 +1918,7 @@ sg23
 g9
 sS'q'
 VIs a private method visible to a method in the same class?
-p293
+p298
 sg25
 I5
 sg26
@@ -1902,14 +1937,14 @@ sg32
 I53
 sg33
 S'7c1159df'
-p294
+p299
 sba(imnemosyne.core.mnemosyne_core
 Item
-p295
-(dp296
+p300
+(dp301
 S'a'
 VNo. Can't be static and abstract.
-p297
+p302
 sg21
 I42
 sg22
@@ -1918,7 +1953,7 @@ sg23
 g9
 sS'q'
 VIs this valid?\u000aabstract static void doStuff();
-p298
+p303
 sg25
 I5
 sg26
@@ -1937,14 +1972,14 @@ sg32
 I78
 sg33
 S'ceaa6c2e'
-p299
+p304
 sba(imnemosyne.core.mnemosyne_core
 Item
-p300
-(dp301
+p305
+(dp306
 S'a'
 VA method can only be accessed by one thread.
-p302
+p307
 sg21
 I36
 sg22
@@ -1953,7 +1988,7 @@ sg23
 g9
 sS'q'
 VWhat does the synchronized keyword indicate?
-p303
+p308
 sg25
 I5
 sg26
@@ -1972,14 +2007,14 @@ sg32
 I52
 sg33
 S'4e8e71b7'
-p304
+p309
 sba(imnemosyne.core.mnemosyne_core
 Item
-p305
-(dp306
+p310
+(dp311
 S'a'
 VJust methods.
-p307
+p312
 sg21
 I30
 sg22
@@ -1988,7 +2023,7 @@ sg23
 g9
 sS'q'
 VWhat can the synchronized keyword be applied to?
-p308
+p313
 sg25
 I5
 sg26
@@ -2007,14 +2042,14 @@ sg32
 I57
 sg33
 S'4db2bb93'
-p309
+p314
 sba(imnemosyne.core.mnemosyne_core
 Item
-p310
-(dp311
+p315
+(dp316
 S'a'
 VMethods, classes
-p312
+p317
 sg21
 I30
 sg22
@@ -2023,7 +2058,7 @@ sg23
 g9
 sS'q'
 VWhat can strictfp be applied to?
-p313
+p318
 sg25
 I4
 sg26
@@ -2042,48 +2077,13 @@ sg32
 I53
 sg33
 S'7f2df23b'
-p314
-sba(imnemosyne.core.mnemosyne_core
-Item
-p315
-(dp316
-S'a'
-VYes.
-p317
-sg21
-I42
-sg22
-I2
-sg23
-g9
-sS'q'
-VIs this a valid method declaration?\u000avoid doStuff(char c, int... x) { }
-p318
-sg25
-I5
-sg26
-I1
-sg27
-I2
-sg28
-I00
-sg29
-F2.6508465608465599
-sg30
-I0
-sg31
-I1
-sg32
-I101
-sg33
-S'ec21608c'
 p319
 sba(imnemosyne.core.mnemosyne_core
 Item
 p320
 (dp321
 S'a'
-VNo. Too many var args
+VYes.
 p322
 sg21
 I42
@@ -2092,7 +2092,7 @@ I2
 sg23
 g9
 sS'q'
-VIs this a valid method declaration?\u000avoid doStuff(int... x, char...y) { }
+VIs this a valid method declaration?\u000avoid doStuff(char c, int... x) { }
 p323
 sg25
 I5
@@ -2111,15 +2111,50 @@ I1
 sg32
 I101
 sg33
-S'23fe4621'
+S'ec21608c'
 p324
 sba(imnemosyne.core.mnemosyne_core
 Item
 p325
 (dp326
 S'a'
-VNo. should be int...
+VNo. Too many var args
 p327
+sg21
+I42
+sg22
+I2
+sg23
+g9
+sS'q'
+VIs this a valid method declaration?\u000avoid doStuff(int... x, char...y) { }
+p328
+sg25
+I5
+sg26
+I1
+sg27
+I2
+sg28
+I00
+sg29
+F2.6508465608465599
+sg30
+I0
+sg31
+I1
+sg32
+I101
+sg33
+S'23fe4621'
+p329
+sba(imnemosyne.core.mnemosyne_core
+Item
+p330
+(dp331
+S'a'
+VNo. should be int...
+p332
 sg21
 I30
 sg22
@@ -2128,7 +2163,7 @@ sg23
 g9
 sS'q'
 VIs this a valid method declaration?\u000avoid doStuff(int x...) { }\u000a
-p328
+p333
 sg25
 I5
 sg26
@@ -2147,14 +2182,14 @@ sg32
 I53
 sg33
 S'1f273490'
-p329
+p334
 sba(imnemosyne.core.mnemosyne_core
 Item
-p330
-(dp331
+p335
+(dp336
 S'a'
 VYes
-p332
+p337
 sg21
 I30
 sg22
@@ -2163,7 +2198,7 @@ sg23
 g9
 sS'q'
 VIs this legal?\u000aclass Foo {\u000a  Foo(int x, int... y) { }\u000a}
-p333
+p338
 sg25
 I5
 sg26
@@ -2182,14 +2217,14 @@ sg32
 I52
 sg33
 S'19a5c4fe'
-p334
+p339
 sba(imnemosyne.core.mnemosyne_core
 Item
-p335
-(dp336
+p340
+(dp341
 S'a'
 VNo. Can't have a return type
-p337
+p342
 sg21
 I42
 sg22
@@ -2198,7 +2233,7 @@ sg23
 g9
 sS'q'
 VIs this valid?\u000aclass Foo {\u000a  void Foo() { }\u000a}
-p338
+p343
 sg25
 I5
 sg26
@@ -2217,14 +2252,14 @@ sg32
 I98
 sg33
 S'db8e4266'
-p339
+p344
 sba(imnemosyne.core.mnemosyne_core
 Item
-p340
-(dp341
+p345
+(dp346
 S'a'
 VNo. Methods need return types.
-p342
+p347
 sg21
 I42
 sg22
@@ -2233,7 +2268,7 @@ sg23
 g9
 sS'q'
 VIs this valid?\u000aClass Foo2 {\u000a  Foo() { }\u000a}
-p343
+p348
 sg25
 I5
 sg26
@@ -2252,14 +2287,14 @@ sg32
 I75
 sg33
 S'ec13bbb4'
-p344
+p349
 sba(imnemosyne.core.mnemosyne_core
 Item
-p345
-(dp346
+p350
+(dp351
 S'a'
 VNo. Can't have an abstract constructor
-p347
+p352
 sg21
 I36
 sg22
@@ -2268,7 +2303,7 @@ sg23
 g9
 sS'q'
 VIs this valid?\u000aclass Foo {\u000a  final Foo(char a) { }\u000a}
-p348
+p353
 sg25
 I4
 sg26
@@ -2287,14 +2322,14 @@ sg32
 I57
 sg33
 S'3c9fb1c0'
-p349
+p354
 sba(imnemosyne.core.mnemosyne_core
 Item
-p350
-(dp351
+p355
+(dp356
 S'a'
 Vchar, boolean, byte, short, int, long, double, float
-p352
+p357
 sg21
 I36
 sg22
@@ -2303,7 +2338,7 @@ sg23
 g9
 sS'q'
 VWhat are the eight different primitive types?
-p353
+p358
 sg25
 I5
 sg26
@@ -2322,14 +2357,14 @@ sg32
 I62
 sg33
 S'a593f5c0'
-p354
+p359
 sba(imnemosyne.core.mnemosyne_core
 Item
-p355
-(dp356
+p360
+(dp361
 S'a'
 Vfloat, double
-p357
+p362
 sg21
 I36
 sg22
@@ -2338,7 +2373,7 @@ sg23
 g9
 sS'q'
 VPut the floating point types in ascending size order.
-p358
+p363
 sg25
 I5
 sg26
@@ -2357,14 +2392,14 @@ sg32
 I59
 sg33
 S'bab7f36f'
-p359
+p364
 sba(imnemosyne.core.mnemosyne_core
 Item
-p360
-(dp361
+p365
+(dp366
 S'a'
 V64
-p362
+p367
 sg21
 I42
 sg22
@@ -2373,7 +2408,7 @@ sg23
 g9
 sS'q'
 VHow many bits are there in a double?
-p363
+p368
 sg25
 I5
 sg26
@@ -2392,14 +2427,14 @@ sg32
 I96
 sg33
 S'1733d7bb'
-p364
+p369
 sba(imnemosyne.core.mnemosyne_core
 Item
-p365
-(dp366
+p370
+(dp371
 S'a'
 V-(2^31)\u000a31 = 4 bytes * 8 bits per byte - 1
-p367
+p372
 sg21
 I30
 sg22
@@ -2408,7 +2443,7 @@ sg23
 g9
 sS'q'
 VWhat's the minimum value that an int can hold?
-p368
+p373
 sg25
 I5
 sg26
@@ -2427,14 +2462,14 @@ sg32
 I56
 sg33
 S'75e4374c'
-p369
+p374
 sba(imnemosyne.core.mnemosyne_core
 Item
-p370
-(dp371
+p375
+(dp376
 S'a'
 V(2^7)-1\u000a7 = 1 byte * 8 bits per byte - 1
-p372
+p377
 sg21
 I42
 sg22
@@ -2443,7 +2478,7 @@ sg23
 g9
 sS'q'
 VWhat's the maximum value a byte can hold?
-p373
+p378
 sg25
 I5
 sg26
@@ -2462,14 +2497,14 @@ sg32
 I79
 sg33
 S'eebd9b32'
-p374
+p379
 sba(imnemosyne.core.mnemosyne_core
 Item
-p375
-(dp376
+p380
+(dp381
 S'a'
 VWhen the class is instantiated.
-p377
+p382
 sg21
 I36
 sg22
@@ -2478,7 +2513,7 @@ sg23
 g9
 sS'q'
 VWhen are instance variables initialized?
-p378
+p383
 sg25
 I5
 sg26
@@ -2497,14 +2532,14 @@ sg32
 I60
 sg33
 S'544e65c3'
-p379
+p384
 sba(imnemosyne.core.mnemosyne_core
 Item
-p380
-(dp381
+p385
+(dp386
 S'a'
 VYes
-p382
+p387
 sg21
 I36
 sg22
@@ -2513,7 +2548,7 @@ sg23
 g9
 sS'q'
 VCan an instance variable be final?
-p383
+p388
 sg25
 I5
 sg26
@@ -2532,14 +2567,14 @@ sg32
 I58
 sg33
 S'3a3806dc'
-p384
+p389
 sba(imnemosyne.core.mnemosyne_core
 Item
-p385
-(dp386
+p390
+(dp391
 S'a'
 VNo.
-p387
+p392
 sg21
 I30
 sg22
@@ -2548,7 +2583,7 @@ sg23
 g9
 sS'q'
 VCan an instance variable be synchronized?
-p388
+p393
 sg25
 I5
 sg26
@@ -2567,14 +2602,14 @@ sg32
 I54
 sg33
 S'18c76474'
-p389
+p394
 sba(imnemosyne.core.mnemosyne_core
 Item
-p390
-(dp391
+p395
+(dp396
 S'a'
 VNo.
-p392
+p397
 sg21
 I30
 sg22
@@ -2583,7 +2618,7 @@ sg23
 g9
 sS'q'
 VCan an instance variable be native?
-p393
+p398
 sg25
 I5
 sg26
@@ -2602,14 +2637,14 @@ sg32
 I57
 sg33
 S'4cb80559'
-p394
+p399
 sba(imnemosyne.core.mnemosyne_core
 Item
-p395
-(dp396
+p400
+(dp401
 S'a'
 VYes
-p397
+p402
 sg21
 I30
 sg22
@@ -2618,7 +2653,7 @@ sg23
 g9
 sS'q'
 VCan an instance variable be transient?
-p398
+p403
 sg25
 I5
 sg26
@@ -2637,14 +2672,14 @@ sg32
 I53
 sg33
 S'f0a7cec0'
-p399
+p404
 sba(imnemosyne.core.mnemosyne_core
 Item
-p400
-(dp401
+p405
+(dp406
 S'a'
 VNo.
-p402
+p407
 sg21
 I30
 sg22
@@ -2653,7 +2688,7 @@ sg23
 g9
 sS'q'
 VCan an instance variable be abstract?
-p403
+p408
 sg25
 I5
 sg26
@@ -2672,48 +2707,13 @@ sg32
 I54
 sg33
 S'0de5c81d'
-p404
-sba(imnemosyne.core.mnemosyne_core
-Item
-p405
-(dp406
-S'a'
-VNo.
-p407
-sg21
-I36
-sg22
-I2
-sg23
-g9
-sS'q'
-VDo local variables get default values?
-p408
-sg25
-I5
-sg26
-I1
-sg27
-I2
-sg28
-I00
-sg29
-F2.650846560846563
-sg30
-I0
-sg31
-I1
-sg32
-I58
-sg33
-S'1893611b'
 p409
 sba(imnemosyne.core.mnemosyne_core
 Item
 p410
 (dp411
 S'a'
-VYes.
+VNo.
 p412
 sg21
 I36
@@ -2722,7 +2722,7 @@ I2
 sg23
 g9
 sS'q'
-VDo instance variables get default values?
+VDo local variables get default values?
 p413
 sg25
 I5
@@ -2741,14 +2741,14 @@ I1
 sg32
 I58
 sg33
-S'c358c7f3'
+S'1893611b'
 p414
 sba(imnemosyne.core.mnemosyne_core
 Item
 p415
 (dp416
 S'a'
-VShadowing.
+VYes.
 p417
 sg21
 I36
@@ -2757,8 +2757,43 @@ I2
 sg23
 g9
 sS'q'
-VWhat is it called when a local variable has the same name as an instance variable?
+VDo instance variables get default values?
 p418
+sg25
+I5
+sg26
+I1
+sg27
+I2
+sg28
+I00
+sg29
+F2.650846560846563
+sg30
+I0
+sg31
+I1
+sg32
+I58
+sg33
+S'c358c7f3'
+p419
+sba(imnemosyne.core.mnemosyne_core
+Item
+p420
+(dp421
+S'a'
+VShadowing.
+p422
+sg21
+I36
+sg22
+I2
+sg23
+g9
+sS'q'
+VWhat is it called when a local variable has the same name as an instance variable?
+p423
 sg25
 I5
 sg26
@@ -2777,14 +2812,14 @@ sg32
 I59
 sg33
 S'81fafc26'
-p419
+p424
 sba(imnemosyne.core.mnemosyne_core
 Item
-p420
-(dp421
+p425
+(dp426
 S'a'
 VYes
-p422
+p427
 sg21
 I42
 sg22
@@ -2793,7 +2828,7 @@ sg23
 g9
 sS'q'
 VIs this valid?\u000aint[] key;
-p423
+p428
 sg25
 I5
 sg26
@@ -2812,14 +2847,14 @@ sg32
 I81
 sg33
 S'81d73cf5'
-p424
+p429
 sba(imnemosyne.core.mnemosyne_core
 Item
-p425
-(dp426
+p430
+(dp431
 S'a'
 VYes
-p427
+p432
 sg21
 I36
 sg22
@@ -2828,7 +2863,7 @@ sg23
 g9
 sS'q'
 VIs this valid?\u000aint key [];
-p428
+p433
 sg25
 I5
 sg26
@@ -2847,14 +2882,14 @@ sg32
 I60
 sg33
 S'7ee99572'
-p429
+p434
 sba(imnemosyne.core.mnemosyne_core
 Item
-p430
-(dp431
+p435
+(dp436
 S'a'
 VNo
-p432
+p437
 sg21
 I42
 sg22
@@ -2863,7 +2898,7 @@ sg23
 g9
 sS'q'
 VIs this valid?\u000aint[5] scores;
-p433
+p438
 sg25
 I5
 sg26
@@ -2882,14 +2917,14 @@ sg32
 I74
 sg33
 S'868c10dd'
-p434
+p439
 sba(imnemosyne.core.mnemosyne_core
 Item
-p435
-(dp436
+p440
+(dp441
 S'a'
 VDon't serialize it.
-p437
+p442
 sg21
 I36
 sg22
@@ -2898,7 +2933,7 @@ sg23
 g9
 sS'q'
 VWhat does it mean to make a variable transient?
-p438
+p443
 sg25
 I5
 sg26
@@ -2917,14 +2952,14 @@ sg32
 I58
 sg33
 S'c071e891'
-p439
+p444
 sba(imnemosyne.core.mnemosyne_core
 Item
-p440
-(dp441
+p445
+(dp446
 S'a'
 Vno
-p442
+p447
 sg21
 I42
 sg22
@@ -2933,7 +2968,7 @@ sg23
 g9
 sS'q'
 VCan a constructor be static?
-p443
+p448
 sg25
 I5
 sg26
@@ -2952,14 +2987,14 @@ sg32
 I84
 sg33
 S'7d6fa428'
-p444
+p449
 sba(imnemosyne.core.mnemosyne_core
 Item
-p445
-(dp446
+p450
+(dp451
 S'a'
 VNested ones.
-p447
+p452
 sg21
 I43
 sg22
@@ -2968,7 +3003,7 @@ sg23
 g9
 sS'q'
 VWhich classes can be marked static?
-p448
+p453
 sg25
 I4
 sg26
@@ -2987,14 +3022,14 @@ sg32
 I61
 sg33
 S'1f9608ab'
-p449
+p454
 sba(imnemosyne.core.mnemosyne_core
 Item
-p450
-(dp451
+p455
+(dp456
 S'a'
 VNo.
-p452
+p457
 sg21
 I36
 sg22
@@ -3003,7 +3038,7 @@ sg23
 g9
 sS'q'
 VCan an enum be declared within a method?
-p453
+p458
 sg25
 I4
 sg26
@@ -3022,14 +3057,14 @@ sg32
 I60
 sg33
 S'24bba996'
-p454
+p459
 sba(imnemosyne.core.mnemosyne_core
 Item
-p455
-(dp456
+p460
+(dp461
 S'a'
 VNo.\u000a\u000aYou can't call an enum constructor outside of the enum.
-p457
+p462
 sg21
 I36
 sg22
@@ -3038,7 +3073,7 @@ sg23
 g9
 sS'q'
 VIs this valid?\u000aenum E {\u000a  E(int c) { this.c = c; }\u000a  print int c;\u000a}\u000a\u000a...\u000aE e = new E(6);
-p458
+p463
 sg25
 I5
 sg26
@@ -3057,14 +3092,14 @@ sg32
 I57
 sg33
 S'f6979a7f'
-p459
+p464
 sba(imnemosyne.core.mnemosyne_core
 Item
-p460
-(dp461
+p465
+(dp466
 S'a'
 VNo
-p462
+p467
 sg21
 I42
 sg22
@@ -3073,7 +3108,7 @@ sg23
 g14
 sS'q'
 VCan an overriding method have a different parameter list to the overridden method?
-p463
+p468
 sg25
 I5
 sg26
@@ -3092,14 +3127,14 @@ sg32
 I55
 sg33
 S'eed6d1f7'
-p464
+p469
 sba(imnemosyne.core.mnemosyne_core
 Item
-p465
-(dp466
+p470
+(dp471
 S'a'
 VNo
-p467
+p472
 sg21
 I42
 sg22
@@ -3108,7 +3143,7 @@ sg23
 g14
 sS'q'
 VCan you override a method and make the access level more restrictive?
-p468
+p473
 sg25
 I5
 sg26
@@ -3127,14 +3162,14 @@ sg32
 I58
 sg33
 S'36cceb44'
-p469
+p474
 sba(imnemosyne.core.mnemosyne_core
 Item
-p470
-(dp471
+p475
+(dp476
 S'a'
 VYes
-p472
+p477
 sg21
 I43
 sg22
@@ -3143,7 +3178,7 @@ sg23
 g14
 sS'q'
 VCan you override a method and make the access level less restrictive?
-p473
+p478
 sg25
 I4
 sg26
@@ -3162,14 +3197,14 @@ sg32
 I59
 sg33
 S'f094c62f'
-p474
+p479
 sba(imnemosyne.core.mnemosyne_core
 Item
-p475
-(dp476
+p480
+(dp481
 S'a'
 VNo
-p477
+p482
 sg21
 I43
 sg22
@@ -3178,7 +3213,7 @@ sg23
 g14
 sS'q'
 VCan you override a private method?
-p478
+p483
 sg25
 I5
 sg26
@@ -3197,14 +3232,14 @@ sg32
 I64
 sg33
 S'7607c58e'
-p479
+p484
 sba(imnemosyne.core.mnemosyne_core
 Item
-p480
-(dp481
+p485
+(dp486
 S'a'
 VNo
-p482
+p487
 sg21
 I42
 sg22
@@ -3213,7 +3248,7 @@ sg23
 g14
 sS'q'
 VCan an overriding method throw broader checked exceptions that the overridden method?
-p483
+p488
 sg25
 I5
 sg26
@@ -3232,14 +3267,14 @@ sg32
 I59
 sg33
 S'dffcdfef'
-p484
+p489
 sba(imnemosyne.core.mnemosyne_core
 Item
-p485
-(dp486
+p490
+(dp491
 S'a'
 VNo
-p487
+p492
 sg21
 I43
 sg22
@@ -3248,7 +3283,7 @@ sg23
 g14
 sS'q'
 VCan you override a final method?
-p488
+p493
 sg25
 I5
 sg26
@@ -3267,14 +3302,14 @@ sg32
 I64
 sg33
 S'26829183'
-p489
+p494
 sba(imnemosyne.core.mnemosyne_core
 Item
-p490
-(dp491
+p495
+(dp496
 S'a'
 VNo
-p492
+p497
 sg21
 I42
 sg22
@@ -3283,7 +3318,7 @@ sg23
 g14
 sS'q'
 VCan you override a static method?
-p493
+p498
 sg25
 I5
 sg26
@@ -3302,14 +3337,14 @@ sg32
 I58
 sg33
 S'273f5d99'
-p494
+p499
 sba(imnemosyne.core.mnemosyne_core
 Item
-p495
-(dp496
+p500
+(dp501
 S'a'
 VCalling an overriden method
-p497
+p502
 sg21
 I42
 sg22
@@ -3318,7 +3353,7 @@ sg23
 g14
 sS'q'
 VWhat's the super keyword for?
-p498
+p503
 sg25
 I5
 sg26
@@ -3337,14 +3372,14 @@ sg32
 I59
 sg33
 S'b66f3f05'
-p499
+p504
 sba(imnemosyne.core.mnemosyne_core
 Item
-p500
-(dp501
+p505
+(dp506
 S'a'
 VReuse of a method name with different parameters
-p502
+p507
 sg21
 I43
 sg22
@@ -3353,7 +3388,7 @@ sg23
 g14
 sS'q'
 VWhat is overloading
-p503
+p508
 sg25
 I5
 sg26
@@ -3372,41 +3407,6 @@ sg32
 I59
 sg33
 S'd35fb144'
-p504
-sba(imnemosyne.core.mnemosyne_core
-Item
-p505
-(dp506
-S'a'
-VYes
-p507
-sg21
-I42
-sg22
-I2
-sg23
-g14
-sS'q'
-VCan overrloaded methods have different return types?
-p508
-sg25
-I5
-sg26
-I1
-sg27
-I2
-sg28
-I00
-sg29
-F2.7153244724931489
-sg30
-I0
-sg31
-I1
-sg32
-I56
-sg33
-S'48f4d086'
 p509
 sba(imnemosyne.core.mnemosyne_core
 Item
@@ -3422,7 +3422,7 @@ I2
 sg23
 g14
 sS'q'
-VCan overrloaded methods have different access modifiers?
+VCan overrloaded methods have different return types?
 p513
 sg25
 I5
@@ -3441,7 +3441,7 @@ I1
 sg32
 I56
 sg33
-S'0b6ad4ef'
+S'48f4d086'
 p514
 sba(imnemosyne.core.mnemosyne_core
 Item
@@ -3457,8 +3457,43 @@ I2
 sg23
 g14
 sS'q'
-VCan methods be overrloaded in a subclass
+VCan overrloaded methods have different access modifiers?
 p518
+sg25
+I5
+sg26
+I1
+sg27
+I2
+sg28
+I00
+sg29
+F2.7153244724931489
+sg30
+I0
+sg31
+I1
+sg32
+I56
+sg33
+S'0b6ad4ef'
+p519
+sba(imnemosyne.core.mnemosyne_core
+Item
+p520
+(dp521
+S'a'
+VYes
+p522
+sg21
+I42
+sg22
+I2
+sg23
+g14
+sS'q'
+VCan methods be overrloaded in a subclass
+p523
 sg25
 I5
 sg26
@@ -3477,14 +3512,14 @@ sg32
 I60
 sg33
 S'd6b57849'
-p519
+p524
 sba(imnemosyne.core.mnemosyne_core
 Item
-p520
-(dp521
+p525
+(dp526
 S'a'
 VAnimal says: a\u000aAnimal says: b\u000aAnimal says: a\u000aHorse says: b\u000a
-p522
+p527
 sg21
 I42
 sg22
@@ -3493,7 +3528,7 @@ sg23
 g14
 sS'q'
 VWhat's printed?\u000apublic class Animal {\u000a    public void say(A a) {\u000a	System.out.println("Animal says: " + a.toString());\u000a    }\u000a\u000a    public static void main(String [] args) {\u000a	Animal animal = new Horse();\u000a	animal.say(new A());\u000a	animal.say(new B());\u000a\u000a	Horse horse = new Horse();\u000a	horse.say(new A());\u000a	horse.say(new B());\u000a    }\u000a}\u000a\u000aclass Horse extends Animal {\u000a    public void say(B b) {\u000a	System.out.println("Horse says: " + b.toString());\u000a    }\u000a}\u000a\u000aclass A {\u000a    public String toString() {\u000a	return "a";\u000a    }\u000a}\u000a\u000aclass B extends A {\u000a    public String toString() {\u000a	return "b";\u000a    }\u000a}
-p523
+p528
 sg25
 I5
 sg26
@@ -3512,31 +3547,31 @@ sg32
 I59
 sg33
 S'5549412f'
-p524
+p529
 sba(imnemosyne.core.mnemosyne_core
 Item
-p525
-(dp526
+p530
+(dp531
 S'a'
 VThe reference type
-p527
+p532
 sg21
-I42
+I46
 sg22
-I0
+I1
 sg23
 g14
 sS'q'
 VIs it the reference type or the object type that determines which overload of a method is called?
-p528
+p533
 sg25
-I3
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.5706780078466815
 sg30
@@ -3544,17 +3579,17 @@ I0
 sg31
 I1
 sg32
-I45
+I51
 sg33
 S'e65cf299'
-p529
+p534
 sba(imnemosyne.core.mnemosyne_core
 Item
-p530
-(dp531
+p535
+(dp536
 S'a'
 Vm(Animal a);
-p532
+p537
 sg21
 I43
 sg22
@@ -3563,7 +3598,7 @@ sg23
 g14
 sS'q'
 VWhich method is called?\u000am(Animal a);\u000am(Horse h);\u000a\u000aAnimal a = new Horse();\u000am(a)
-p533
+p538
 sg25
 I4
 sg26
@@ -3582,66 +3617,66 @@ sg32
 I49
 sg33
 S'4495035e'
-p534
-sba(imnemosyne.core.mnemosyne_core
-Item
-p535
-(dp536
-S'a'
-VCasting to a *more specific* object type
-p537
-sg21
-I42
-sg22
-I0
-sg23
-g14
-sS'q'
-VWhat is a down cast
-p538
-sg25
-I2
-sg26
-I1
-sg27
-I0
-sg28
-I01
-sg29
-F2.570678007846682
-sg30
-I0
-sg31
-I1
-sg32
-I44
-sg33
-S'0d8311be'
 p539
 sba(imnemosyne.core.mnemosyne_core
 Item
 p540
 (dp541
 S'a'
-VIt won't work, it will fail at run time with a ClassCastException
+VCasting to a *more specific* object type
 p542
 sg21
-I42
+I46
 sg22
+I1
+sg23
+g14
+sS'q'
+VWhat is a down cast
+p543
+sg25
+I5
+sg26
+I1
+sg27
+I1
+sg28
+I00
+sg29
+F2.6706780078466821
+sg30
 I0
+sg31
+I1
+sg32
+I51
+sg33
+S'0d8311be'
+p544
+sba(imnemosyne.core.mnemosyne_core
+Item
+p545
+(dp546
+S'a'
+VIt won't work, it will fail at run time with a ClassCastException
+p547
+sg21
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VWill this work? If not does it fail at compile or run time?\u000a\u000aAnimal a = new Animal();\u000aDog d = (Dog) a;\u000ad.dogThing();
-p543
+p548
 sg25
-I3
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.5706780078466824
 sg30
@@ -3649,17 +3684,17 @@ I0
 sg31
 I1
 sg32
-I46
+I53
 sg33
 S'36b82cb2'
-p544
+p549
 sba(imnemosyne.core.mnemosyne_core
 Item
-p545
-(dp546
+p550
+(dp551
 S'a'
 VIt will fail at compile time. Animals are never strings, silly.
-p547
+p552
 sg21
 I42
 sg22
@@ -3668,7 +3703,7 @@ sg23
 g14
 sS'q'
 VWill this work? If not, will it fail at run time or compile time?\u000a\u000aAnimal animal = new Animal();\u000aString s = (String) animal;\u000as.toString();
-p548
+p553
 sg25
 I5
 sg26
@@ -3687,101 +3722,101 @@ sg32
 I48
 sg33
 S'b5aa9817'
-p549
-sba(imnemosyne.core.mnemosyne_core
-Item
-p550
-(dp551
-S'a'
-VCasting to a more general type.
-p552
-sg21
-I42
-sg22
-I0
-sg23
-g14
-sS'q'
-VWhat is upcasting?
-p553
-sg25
-I2
-sg26
-I1
-sg27
-I0
-sg28
-I01
-sg29
-F2.5706780078466829
-sg30
-I0
-sg31
-I1
-sg32
-I44
-sg33
-S'a788d3fc'
 p554
 sba(imnemosyne.core.mnemosyne_core
 Item
 p555
 (dp556
 S'a'
-VNo.\u000ap121
+VCasting to a more general type.
 p557
 sg21
-I43
-sg25
-I4
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
-VWhen implementing an interface, can you throw checked exceptions that aren't on the interface?
+VWhat is upcasting?
 p558
-sg22
-I0
+sg25
+I5
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
-F2.5773446745133497
+F2.670678007846683
 sg30
 I0
 sg31
 I1
 sg32
-I46
+I52
 sg33
-S'faf71264'
+S'a788d3fc'
 p559
 sba(imnemosyne.core.mnemosyne_core
 Item
 p560
 (dp561
 S'a'
-VdoThing() implementation must declare that it throws Exception
+VNo.\u000ap121
 p562
 sg21
-I43
+I46
+sg22
+I1
+sg23
+g14
+sS'q'
+VWhen implementing an interface, can you throw checked exceptions that aren't on the interface?
+p563
 sg25
-I3
+I5
+sg26
+I1
+sg27
+I1
+sg28
+I00
+sg29
+F2.6773446745133498
+sg30
+I0
+sg31
+I1
+sg32
+I53
+sg33
+S'faf71264'
+p564
+sba(imnemosyne.core.mnemosyne_core
+Item
+p565
+(dp566
+S'a'
+VdoThing() implementation must declare that it throws Exception
+p567
+sg21
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VDoes this work? If not, why not?class Thrower implements IThrower {\u000a    public void doThing() {\u000a	throw new Exception();\u000a    }\u000a}\u000a\u000ainterface IThrower {\u000a    void doThing() throws Exception;\u000a}\u000a
-p563
-sg22
-I0
+p568
+sg25
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.5773446745133497
 sg30
@@ -3789,69 +3824,34 @@ I0
 sg31
 I1
 sg32
-I46
+I53
 sg33
 S'79fabc61'
-p564
-sba(imnemosyne.core.mnemosyne_core
-Item
-p565
-(dp566
-S'a'
-VNo. That's left to the first concrete implementation. p121
-p567
-sg21
-I43
-sg25
-I2
-sg23
-g14
-sS'q'
-VDoes an abstract class have to implement all the methods declared in an interface that it implements.
-p568
-sg22
-I0
-sg26
-I1
-sg27
-I0
-sg28
-I01
-sg29
-F2.5773446745133501
-sg30
-I0
-sg31
-I1
-sg32
-I45
-sg33
-S'9a506473'
 p569
 sba(imnemosyne.core.mnemosyne_core
 Item
 p570
 (dp571
 S'a'
-VWhen an interface extends more than one other interface:\u000ainterface IA extends IB, IC { }\u000ap123
+VNo. That's left to the first concrete implementation. p121
 p572
 sg21
-I43
-sg25
-I2
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
-VWhen can you literally extend more than one thing.
+VDoes an abstract class have to implement all the methods declared in an interface that it implements.
 p573
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.5773446745133501
 sg30
@@ -3859,28 +3859,63 @@ I0
 sg31
 I1
 sg32
-I44
+I52
 sg33
-S'2c4bf31d'
+S'9a506473'
 p574
 sba(imnemosyne.core.mnemosyne_core
 Item
 p575
 (dp576
 S'a'
-VYes
+VWhen an interface extends more than one other interface:\u000ainterface IA extends IB, IC { }\u000ap123
 p577
 sg21
-I43
+I46
+sg22
+I1
+sg23
+g14
+sS'q'
+VWhen can you literally extend more than one thing.
+p578
 sg25
-I5
+I4
+sg26
+I1
+sg27
+I1
+sg28
+I00
+sg29
+F2.5773446745133501
+sg30
+I0
+sg31
+I1
+sg32
+I53
+sg33
+S'2c4bf31d'
+p579
+sba(imnemosyne.core.mnemosyne_core
+Item
+p580
+(dp581
+S'a'
+VYes
+p582
+sg21
+I43
+sg22
+I0
 sg23
 g14
 sS'q'
 VIs this legal?\u000aclass Foo { }
-p578
-sg22
-I0
+p583
+sg25
+I5
 sg26
 I1
 sg27
@@ -3897,41 +3932,6 @@ sg32
 I47
 sg33
 S'5d2ea4ed'
-p579
-sba(imnemosyne.core.mnemosyne_core
-Item
-p580
-(dp581
-S'a'
-VNo. Can't implement class
-p582
-sg21
-I43
-sg25
-I4
-sg23
-g14
-sS'q'
-VIs this legal?\u000aclass Foo {}\u000aclass Bar implements Foo{}
-p583
-sg22
-I0
-sg26
-I1
-sg27
-I0
-sg28
-I01
-sg29
-F2.5773446745133506
-sg30
-I0
-sg31
-I1
-sg32
-I46
-sg33
-S'617afcb2'
 p584
 sba(imnemosyne.core.mnemosyne_core
 Item
@@ -3941,22 +3941,22 @@ S'a'
 VNo, interface can't implement interface. Must extend.
 p587
 sg21
-I43
-sg25
-I3
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VIs this legal?\u000ainterface Baz { }\u000ainterface Fee implements Baz { }
 p588
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.5773446745133506
 sg30
@@ -3964,7 +3964,7 @@ I0
 sg31
 I1
 sg32
-I46
+I53
 sg33
 S'e59016d2'
 p589
@@ -3977,15 +3977,15 @@ VNo, interface can't extend a class
 p592
 sg21
 I43
-sg25
-I4
+sg22
+I0
 sg23
 g14
 sS'q'
 VIs this legal?\u000aclass Foo {}\u000ainterface Fee extends Foo { }
 p593
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
@@ -4011,30 +4011,30 @@ S'a'
 VYes.
 p597
 sg21
-I43
-sg25
-I3
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VIs this legal?\u000ainterface Baz { }\u000ainterface Fee extends Baz { }\u000aclass Foo implements Baz, Fee { }
 p598
-sg22
-I0
+sg25
+I5
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
-F2.577344674513351
+F2.6773446745133511
 sg30
 I0
 sg31
 I1
 sg32
-I45
+I53
 sg33
 S'42aee18c'
 p599
@@ -4046,22 +4046,22 @@ S'a'
 VNo, extends must be first
 p602
 sg21
-I43
-sg25
-I2
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VIs this legal?\u000ainterface Baz { }\u000aclass Fee { }\u000aclass Bar implements Baz extends Fee { } 
 p603
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.577344674513351
 sg30
@@ -4069,7 +4069,7 @@ I0
 sg31
 I1
 sg32
-I44
+I52
 sg33
 S'134ce1ce'
 p604
@@ -4081,22 +4081,22 @@ S'a'
 VYes
 p607
 sg21
-I43
-sg25
-I3
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VIs this legal?\u000ainterface Baz { }\u000aclass Fee { }\u000aclass Bar extends Fee implements Baz { } 
 p608
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.5773446745133515
 sg30
@@ -4104,7 +4104,7 @@ I0
 sg31
 I1
 sg32
-I46
+I52
 sg33
 S'21813508'
 p609
@@ -4117,15 +4117,15 @@ VNo
 p612
 sg21
 I43
-sg25
-I5
+sg22
+I0
 sg23
 g14
 sS'q'
 VCan an overloaded method vary only in return type?
 p613
-sg22
-I0
+sg25
+I5
 sg26
 I1
 sg27
@@ -4152,15 +4152,15 @@ VNo. If the return type of a method is primitive you can't return null.
 p617
 sg21
 I43
-sg25
-I4
+sg22
+I0
 sg23
 g14
 sS'q'
 VCan you always return null from a method?
 p618
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
@@ -4186,22 +4186,22 @@ S'a'
 VYes. char can be directly converted to int.
 p622
 sg21
-I43
-sg25
-I3
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VCan you return a char from a method that is declared to return int?
 p623
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.5773446745133519
 sg30
@@ -4209,7 +4209,7 @@ I0
 sg31
 I1
 sg32
-I46
+I52
 sg33
 S'896b6ace'
 p624
@@ -4222,15 +4222,15 @@ VNo.
 p627
 sg21
 I43
-sg25
-I5
+sg22
+I0
 sg23
 g14
 sS'q'
 VCan you ever return anything from a method with a void return type?
 p628
-sg22
-I0
+sg25
+I5
 sg26
 I1
 sg27
@@ -4257,15 +4257,15 @@ VYes. Bear is an animal.
 p632
 sg21
 I43
-sg25
-I4
+sg22
+I0
 sg23
 g14
 sS'q'
 VIs this valid?\u000apublic abstract class Animal { }\u000apublic class Bear extends Animal { }\u000apublic class Test {\u000a  public Animal go() {\u000a    return new Bear();\u000a  }\u000a}
 p633
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
@@ -4291,30 +4291,30 @@ S'a'
 VHorse, Animal, Object
 p637
 sg21
-I43
-sg25
-I2
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VHorse extends Animal extends Object. In what order are the constructors called?
 p638
-sg22
-I0
+sg25
+I5
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
-F2.5773446745133524
+F2.6773446745133525
 sg30
 I0
 sg31
 I1
 sg32
-I44
+I51
 sg33
 S'b74e56a9'
 p639
@@ -4326,22 +4326,22 @@ S'a'
 VAll of them.
 p642
 sg21
-I43
-sg25
-I4
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VWhich access modifiers can be used on a constructor?
 p643
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
-I0
+I1
 sg28
-I01
+I00
 sg29
 F2.5773446745133524
 sg30
@@ -4349,7 +4349,7 @@ I0
 sg31
 I1
 sg32
-I46
+I53
 sg33
 S'017036b1'
 p644
@@ -4362,15 +4362,15 @@ VNo.
 p647
 sg21
 I43
-sg25
-I5
+sg22
+I0
 sg23
 g14
 sS'q'
 VCan a constructor be named differently from the class?
 p648
-sg22
-I0
+sg25
+I5
 sg26
 I1
 sg27
@@ -4397,15 +4397,15 @@ VNo.
 p652
 sg21
 I43
-sg25
-I5
+sg22
+I0
 sg23
 g14
 sS'q'
 VCan a constructor have a return type?
 p653
-sg22
-I0
+sg25
+I5
 sg26
 I1
 sg27
@@ -4431,20 +4431,20 @@ S'a'
 VYes. Look for the return type.
 p657
 sg21
-I43
-sg25
-I2
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VCan you have a method with the same name as the constructor?
 p658
-sg22
-I0
+sg25
+I4
 sg26
 I2
 sg27
-I0
+I1
 sg28
 I00
 sg29
@@ -4454,7 +4454,7 @@ I0
 sg31
 I2
 sg32
-I44
+I53
 sg33
 S'72ec0ad9'
 p659
@@ -4467,15 +4467,15 @@ VYes, it's the default constructor. It has no arguments.
 p662
 sg21
 I43
-sg25
-I5
+sg22
+I0
 sg23
 g14
 sS'q'
 VIf you don't type a constructor, is there one?
 p663
-sg22
-I0
+sg25
+I5
 sg26
 I1
 sg27
@@ -4502,15 +4502,15 @@ VNo.
 p667
 sg21
 I43
-sg25
-I4
+sg22
+I0
 sg23
 g14
 sS'q'
 VIf you create one constructor that takes arguments, will a default constructor be generated?
 p668
-sg22
-I0
+sg25
+I4
 sg26
 I1
 sg27
@@ -4536,20 +4536,20 @@ S'a'
 VObject, then Foo, then Bar. Although Bar is called first, the first call is (either implicitly or explicitly) to another constructor.
 p672
 sg21
-I43
-sg25
-I3
+I46
+sg22
+I1
 sg23
 g14
 sS'q'
 VBar extends Foo extends Object\u000aWhich constructor body will be finished first?
 p673
-sg22
-I0
+sg25
+I4
 sg26
 I2
 sg27
-I0
+I1
 sg28
 I00
 sg29
@@ -4559,7 +4559,7 @@ I0
 sg31
 I2
 sg32
-I44
+I53
 sg33
 S'54a9d92a'
 p674
